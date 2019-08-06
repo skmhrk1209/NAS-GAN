@@ -1,0 +1,41 @@
+{
+    "train_root": "cifar10",
+    "val_root": "cifar10",
+    "split_ratio": 0.5,
+    "local_batch_size": 64,
+    "global_batch_denom": 64,
+    "num_workers": 4,
+    "num_epochs": 100,
+    "generator_network_optimizer": {
+        "lr": 2e-4,
+        "betas": [
+            0.0,
+            0.99
+        ],
+        "eps": 1e-8
+    },
+    "generator_architecture_optimizer": {
+        "lr": 2e-4,
+        "betas": [
+            0.0,
+            0.99
+        ],
+        "eps": 1e-8
+    },
+    "discriminator_network_optimizer": {
+        "lr": 2e-4,
+        "betas": [
+            0.0,
+            0.99
+        ],
+        "eps": 1e-8
+    },
+    "discriminator_architecture_optimizer": {
+        "lr": 2e-4,
+        "betas": [
+            0.0,
+            0.99
+        ],
+        "eps": 1e-8
+    }
+}

@@ -1,0 +1,13 @@
+{
+    "num_workers": 4,
+    "num_epochs": 500,
+    "local_batch_size": 32,
+    "global_batch_denom": 96,
+    "lr": 0.025,
+    "momentum": 0.9,
+    "weight_decay": 3e-4,
+    "drop_prob": 0.2,
+    "label_smoothing": 0.0,
+    "train_root": "cifar10",
+    "val_root": "cifar10"
+}
